@@ -1,0 +1,173 @@
+body {
+	background-image: url("images/phbg.png");
+	background-size: 1200px 600px;
+	background-repeat: no-repeat;
+}
+
+img#Knight {
+	position: absolute;
+	top: 128px;
+	left: 250px;
+    -webkit-animation: breathing 4s ease-out infinite normal;
+    animation: breathing 4s ease-out infinite normal;
+    z-index: 1;
+}
+
+
+		@-webkit-keyframes breathing {
+		  0% {
+		    -webkit-transform: scale(0.98);
+		    transform: scale(0.98);
+		  }
+
+		  50% {
+		    -webkit-transform: scale(1);
+		    transform: scale(1);
+		  }
+
+		  100% {
+		    -webkit-transform: scale(0.98);
+		    transform: scale(0.98);
+		  }
+		}
+
+		@keyframes breathing {
+		  0% {
+		    -webkit-transform: scale(0.98);
+		    -ms-transform: scale(0.98);
+		    transform: scale(0.98);
+		  }
+
+		  50% {
+		    -webkit-transform: scale(1);
+		    -ms-transform: scale(1);
+		    transform: scale(1);
+		  }
+
+		  100% {
+		    -webkit-transform: scale(0.98);
+		    -ms-transform: scale(0.98);
+		    transform: scale(0.98);
+		  }
+		}
+
+
+    /* transform:scale(1.1); */
+
+	
+
+/*Relative to the Knight's position, sword is held at -45 top and -15 left*/
+
+img#Equip {
+	position: absolute;
+	top: 200px;
+	left: 395px;
+	-webkit-animation: breathing 4s ease-out infinite normal;
+    animation: breathing 4s ease-out infinite normal;
+	z-index: 0;
+}
+
+#Dragon {
+	position: absolute;
+	top: 80px;
+	left: 680px;
+	-webkit-animation: breathing 4s ease-out infinite normal;
+    animation: breathing 4s ease-out infinite normal;
+	z-index: 1;
+}
+
+#Shaker {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+img#Slash {
+	position: absolute;
+	top: 80px;
+	left:680px;
+	z-index: 2;
+}
+
+img#Lslash {
+	position: absolute;
+	top: 40px;
+	left: 780px;
+	z-index: 2;
+}
+
+img#Bgflash {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 1200px;
+	height: 600px;
+	z-index: -1;
+}
+
+img#Dblur {
+	position: absolute;
+	top: 128px;
+	left: 250px;
+	z-index: 2;
+}
+
+p#Counter{
+	position: absolute;
+	top: 60px;
+	left: 300px;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+
+	color: gold;
+	text-shadow: 1px 1px black;
+	z-index: 2;
+
+}
+
+
+
+p#HPStat{
+	position: absolute;
+	top: 80px;
+	left: 300px;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+
+	color: red;
+	text-shadow: 1px 1px black;
+	z-index: 2;
+
+}
+
+#Flavor{
+	position: absolute;
+	top: 150px;
+	left: 410px;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	color: cyan;
+	text-shadow: 1px 1px black;
+	z-index: 0;
+}
+
+table {
+	position: absolute;
+	top: 350px;
+	left: 275px;
+	background-color: tan;
+	border: double;
+	text-align: center;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 1px black;
+	z-index: 1;
+}
+
+td {
+	background-color: tan;
+	border: double;
+}

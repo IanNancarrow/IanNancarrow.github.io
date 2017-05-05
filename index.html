@@ -1,1 +1,52 @@
-Hello World
+<!DOCTYPE>
+
+<html>
+	<head>
+	<!-- jQuery cdn minified -->
+	<link rel="stylesheet" type="text/css" href="DragonGold.css" />
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  	<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+		<script src="DragonGold.js"></script>
+	</head>
+	<body>
+	<!-- Use jQuery to grab your div with id "Gold" and change the innerHTML/content from 0 to 1 to 2 etc. -->
+		<p id="Counter">Gold: <span id="Gold">0</span> <span id="GGain"></span><p>
+		<p id="HPStat">Health: <span id="Health">100</span> <span id="HChange"></span><p>
+		<p><span id="Flavor">Blocked!</span></p>
+		<img id="Knight" src="images/knight.png" />
+		<img id="Equip" src="images/esword0.png" />
+		<span id="Shaker"><img id="Dragon" class="shaking" src="images/dragon.png" /></span>
+		<img id="Slash" src="" />
+		<img id="Dblur" src="" />
+		<img id="Lslash" src="" />
+		<img id="Bgflash" src="" />
+		<!--<div align="center">-->
+			<table>
+				<tr>
+					<th colspan="4"><span id="Shop">Shop</span></th>
+				</tr>
+				<tr>
+					<td>Lesser Potion</td>
+					<td>Bronze Sword</td>
+					<td>Silver Blade</td>
+					<td>Dragon Slayer</td>
+				</tr>
+				<tr>
+					<td><img id="p1" src="images/potion1.png"></td>
+					<td><img id="s1" src="images/sword1.png"></td>
+					<td><img id="s2" src="images/sword2.png"></td>
+					<td><img id="s3" src="images/sword3.png"></td>
+				</tr>
+				<tr>
+					<td>50 Gold</td><td>20 Gold</td><td>50 Gold</td><td>100 Gold</td>
+				</tr>
+			</table>
+		<!--</div>-->
+	</body>
+
+</html>
